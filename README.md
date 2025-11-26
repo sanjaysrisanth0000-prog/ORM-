@@ -40,7 +40,6 @@ class car(models.Model):
     def __str__(self):
         return self.car_name
 # OUTPUT
-Include the screenshot of your admin page.
 
 <img src="C:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-11-26 091705.png">
 
