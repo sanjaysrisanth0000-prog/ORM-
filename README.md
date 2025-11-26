@@ -40,10 +40,10 @@ class car(models.Model):
     def __str__(self):
         return self.car_name
 # OUTPUT
+<img width="1920" height="1080" alt="Screenshot 2025-11-26 093744" src="https://github.com/user-attachments/assets/7896d67f-ced2-436b-a467-58513f3360c4" />
 
-<img src="C:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-11-26 091705.png">
+<img width="1920" height="1080" alt="Screenshot 2025-11-26 091705" src="https://github.com/user-attachments/assets/9206b2bf-8090-4369-81c6-1d3e42eb6043" />
 
-<img src="C:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2025-11-26 093744.png">
 
 # RESULT
 Thus the program for creating a database using ORM hass been executed successfully
