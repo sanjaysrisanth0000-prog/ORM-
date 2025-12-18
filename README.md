@@ -16,7 +16,8 @@ Enter the code for admin.py and models.py
 ## STEP 4:
 Execute Django admin and create details for 10 cars
 
-# PROGRAM
+# 
+```
 admin.py
 
 from django.contrib import admin
@@ -26,8 +27,10 @@ class carAdmin(admin.ModelAdmin):
     list_display = ['car_name','car_price','car_model','car_color']
 
 admin.site.register(car, carAdmin)
+```
 
 model.py
+```
 from django.db import models
 
 class car(models.Model):
@@ -39,6 +42,7 @@ class car(models.Model):
 
     def __str__(self):
         return self.car_name
+```
 # OUTPUT
 <img width="1920" height="1080" alt="Screenshot 2025-11-26 093744" src="https://github.com/user-attachments/assets/7896d67f-ced2-436b-a467-58513f3360c4" />
 
